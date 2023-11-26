@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../imagenescabanas/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 90em;
+   
+}
+
+
+.principal {
+    margin: 0px 0px 0px 192px;
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    margin: 0px 0px 25px 25px;
+    text-align: center;
+    background-color: #88d16e;
+    width: 1300px;
+    
+}
+
+
+header nav div a {
+    background-color: #41686485;
+    border: 1px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}
+
+header nav div a:hover {
+    background-color: rgba(21, 141, 141, 0.74);    
+}
+
+header nav div {
+    margin: 0px 0px 4px 10px;
+    display: flex;
+}
+
+main section {
+    display: flex;
+}
+
+main section h2 {
+  
+    position: relative;
+    left: 650px;
+    bottom: 680px;
+    width: 3500px;
+   
+}
+
+main section p {
+    background: rgb(172, 205, 235);
+    position: relative;
+    bottom: 600px;
+    right: 50px;
+ 
+   
+}
+
+main section .imagen1 {
+    margin: 0px 0px 0px 10px;
+    height: 480px;
+    border: 4px solid rgb(0, 0, 0);
+    position: relative;
+    bottom: 6px;
+
+    
+}
+
+
+
+main section .imagen2 {
+    position: relative;
+    right: 190px;
+    top: 320px;
+    border: 4px solid black;
+    height: 480px;
+    z-index: 5;
+
+}
+
+main section img {
+    position: relative;
+    width: 600px;
+    height: 480px;
+    display: inline-block;
+
+
+    
+}
+
+main section div a {
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    left: 1100px;
+    bottom: 50px;
+    margin: 10px;
+    display: flex;
+
+}
+
+article form fieldset {
+font-size: 20px;
+margin: 5px 10px 5px 5px;
+
+}
+article form fieldset div textarea {
+margin: 10px 0px 0px 0px;
+}
+article form fieldset div button {
+font-size: 16px;
+margin: 10px;
+}

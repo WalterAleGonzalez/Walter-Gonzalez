@@ -1,0 +1,25 @@
+header a {
+    background-color: rgb(108, 135, 255);
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+}
+header h1 {
+    background-color: rgb(131, 255, 83);
+}
+main section {
+    margin: 10px 0px 10px 10px;
+}
+main section img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+}
+main div h3 {
+    background-color: aqua;
+    width: 80px;
+    padding: 5px;
+}

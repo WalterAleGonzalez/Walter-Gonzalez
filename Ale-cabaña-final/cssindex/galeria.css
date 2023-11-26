@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(../imagenescabanas/arbol1.jpg);
+    
+    background-size: 86em;
+
+}
+
+
+
+header nav {
+
+    text-align: center;
+
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+
+
+
+}
+
+header a {
+    background-color: rgb(25, 87, 255);
+    color: black;
+    width: 80px;
+    padding: 5px;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    border-radius: 5px;
+
+}
+
+header h1 {
+    background-color: rgba(109, 202, 171, 0.781);
+}
+
+section .menu div {
+    color: rgb(250, 58, 58);
+    font-weight: 800;
+}
+
+section .menu {
+    margin: 10px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    gap: 10px;
+    grid-template-areas:
+        "area1 area1 area2 area2 area2 area3"
+        "area1 area1 area2 area2 area2 area3"
+        "area4 area4 area2 area2 area2 area5"
+        "area6 area7 area8 area8 area9 area10"
+        "area11 area7 area12 area13 area13 area10"
+        "area14 area14 area15 area15 area15 area15"
+        "area14 area14 area15 area15 area15 area15"
+        "area16 area16 area15 area15 area15 area15"
+        
+    ;
+}
+
+
+
+#area1 {
+    background-image: url(../imagenescabanas/atardecer2.jpg);
+    border: 4px solid black;
+    background-size: 500px 410px;
+    background-repeat: no-repeat;
+
+    grid-area: area1;
+}
+
+#area2 {
+    background-image: url(../imagenescabanas/livingeco.jpg);
+    border: 4px solid black;
+    background-size: 700px 630px;
+    background-repeat: no-repeat;
+    grid-area: area2;
+}
+
+#area3 {
+    background-image: url(../imagenescabanas/cabaña13.jpg);
+    border: 4px solid black;
+    background-size: 250px 410px;
+    background-repeat: no-repeat;
+    grid-area: area3;
+}
+
+#area4 {
+    background-image: url(../imagenescabanas/cabaña11.jpg);
+    border: 4px solid black;
+    background-size: 450px 250px;
+    background-repeat: no-repeat;
+    grid-area: area4;
+}
+
+#area5 {
+    background-image: url(../imagenescabanas/cabaña12.webp);
+    border: 4px solid black;
+    background-size: 230px 200px;
+    background-repeat: no-repeat;
+    grid-area: area5;
+}
+
+#area6 {
+    background-image: url(../imagenescabanas/cabaña10.jpg);
+    border: 4px solid black;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    grid-area: area6;
+}
+
+#area7 {
+    background-image: url(../imagenescabanas/cabaña14.jpg);
+    border: 4px solid black;
+    background-size: 380px 400px;
+    background-repeat: no-repeat;
+    grid-area: area7;
+}
+
+#area8 {
+    background-image: url(../imagenescabanas/cabaña34.jpg);
+    border: 4px solid black;
+    background-size: 430px 230px;
+    background-repeat: no-repeat;
+    grid-area: area8;
+}
+
+#area9 {
+    background-image: url(../imagenescabanas/cabaña33.jpg);
+    border: 4px solid black;
+    background-size: 230px 200px;
+    background-repeat: no-repeat;
+    grid-area: area9;
+}
+
+#area10 {
+    background-image: url(../imagenescabanas/cabaña37.jpg);
+    border: 4px solid black;
+    background-size: 250px 410px;
+    background-repeat: no-repeat;
+    grid-area: area10;
+}
+
+#area11 {
+    background-image: url(../imagenescabanas/cabaña15.webp);
+    border: 4px solid black;
+    background-size: 510px 250px;
+    background-repeat: no-repeat;
+    grid-area: area11;
+}
+
+#area12 {
+    background-image: url(../imagenescabanas/cabaña36.jpg);
+    border: 4px solid black;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    grid-area: area12;
+}
+
+#area13 {
+    background-image: url(../imagenescabanas/cabaña35.jpg);
+    border: 4px solid black;
+    background-size: 430px 230px;
+    background-repeat: no-repeat;
+    grid-area: area13;
+}
+
+#area14 {
+    background-image: url(../imagenescabanas/fondo1.jpg);
+    border: 4px solid black;
+    background-size: 700px 600px;
+    background-repeat: no-repeat;
+    grid-area: area14;
+}
+
+#area15 {
+    background-image: url(../imagenescabanas/atardecer3.jpg);
+    background-size: 900px 700px;
+    background-repeat: no-repeat;
+    border: 4px solid black;
+    grid-area: area15;
+}
+
+#area16 {
+    background-image: url(../imagenescabanas/dormieco.jpg);
+    border: 4px solid black;
+    background-size: 430px 300px;
+    background-repeat: no-repeat;
+    grid-area: area16;
+}
+
+section {
+
+    border: 1px solid black;
+}
+
+footer {
+    margin: 10px 10px 10px 10px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+footer a {
+    margin: 0px 0px 0px 10px;
+}
+
+@media (max-width: 768px) {
+    section .menu {
+        margin: 10px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(8, 100px);
+        gap: 10px;
+        grid-template-areas:
+            "area1 area1 area2 area2 area2 area3"
+            "area1 area1 area2 area2 area2 area3"
+            "area4 area4 area2 area2 area2 area5"
+            "area6 area7 area8 area8 area9 area10"
+            "area11 area7 area12 area13 area13 area10"
+            "area14 area14 area15 area15 area15 area15"
+            "area14 area14 area15 area15 area15 area15"
+            "area16 area16 area15 area15 area15 area15"
+            
+        ;
+    }
+    #area1 {
+        background-image: url(../imagenescabanas/atardecer2.jpg);
+        border: 4px solid black;
+        background-size: 250px 205px;
+        background-repeat: no-repeat;
+    
+        grid-area: area1;
+    }
+    
+    #area2 {
+        background-image: url(../imagenescabanas/livingeco.jpg);
+        border: 4px solid black;
+        background-size: 400px 315px;
+        background-repeat: no-repeat;
+        grid-area: area2;
+    }
+    
+    #area3 {
+        background-image: url(../imagenescabanas/cabaña13.jpg);
+        border: 4px solid black;
+        background-size: 125px 205px;
+        background-repeat: no-repeat;
+        grid-area: area3;
+    }
+    
+    #area4 {
+        background-image: url(../imagenescabanas/cabaña11.jpg);
+        border: 4px solid black;
+        background-size: 275px 125px;
+        background-repeat: no-repeat;
+        grid-area: area4;
+    }
+    
+    #area5 {
+        background-image: url(../imagenescabanas/cabaña12.webp);
+        border: 4px solid black;
+        background-size: 115px 100px;
+        background-repeat: no-repeat;
+        grid-area: area5;
+    }
+    
+    #area6 {
+        background-image: url(../imagenescabanas/cabaña10.jpg);
+        border: 4px solid black;
+        background-size: 150px 100px;
+        background-repeat: no-repeat;
+        grid-area: area6;
+    }
+    
+    #area7 {
+        background-image: url(../imagenescabanas/cabaña14.jpg);
+        border: 4px solid black;
+        background-size: 190px 200px;
+        background-repeat: no-repeat;
+        grid-area: area7;
+    }
+    
+    #area8 {
+        background-image: url(../imagenescabanas/cabaña34.jpg);
+        border: 4px solid black;
+        background-size: 265px 115px;
+        background-repeat: no-repeat;
+        grid-area: area8;
+    }
+    
+    #area9 {
+        background-image: url(../imagenescabanas/cabaña33.jpg);
+        border: 4px solid black;
+        background-size: 115px 100px;
+        background-repeat: no-repeat;
+        grid-area: area9;
+    }
+    
+    #area10 {
+        background-image: url(../imagenescabanas/cabaña37.jpg);
+        border: 4px solid black;
+        background-size: 125px 205px;
+        background-repeat: no-repeat;
+        grid-area: area10;
+    }
+    
+    #area11 {
+        background-image: url(../imagenescabanas/cabaña15.webp);
+        border: 4px solid black;
+        background-size: 255px 125px;
+        background-repeat: no-repeat;
+        grid-area: area11;
+    }
+    
+    #area12 {
+        background-image: url(../imagenescabanas/cabaña36.jpg);
+        border: 4px solid black;
+        background-size: 150px 100px;
+        background-repeat: no-repeat;
+        grid-area: area12;
+    }
+    
+    #area13 {
+        background-image: url(../imagenescabanas/cabaña35.jpg);
+        border: 4px solid black;
+        background-size: 265px 115px;
+        background-repeat: no-repeat;
+        grid-area: area13;
+    }
+    
+    #area14 {
+        background-image: url(../imagenescabanas/fondo1.jpg);
+        border: 4px solid black;
+        background-size: 350px 300px;
+        background-repeat: no-repeat;
+        grid-area: area14;
+    }
+    
+    #area15 {
+        background-image: url(../imagenescabanas/atardecer3.jpg);
+        background-size: 500px 350px;
+        background-repeat: no-repeat;
+        border: 4px solid black;
+        grid-area: area15;
+    }
+    
+    #area16 {
+        background-image: url(../imagenescabanas/dormieco.jpg);
+        border: 4px solid black;
+        background-size: 265px 150px;
+        background-repeat: no-repeat;
+        grid-area: area16;
+    }
+}
+@media (max-width: 360px) {
+    section .menu {
+        margin: 10px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(32, 100px);
+        gap: 10px;
+        grid-template-areas:
+            "area1 area1"
+            "area1 area1"
+            "area2 area2"
+            "area2 area2"
+            "area3 area3"
+            "area3 area3"
+            "area4 area4"
+            "area4 area4"
+            "area5 area5"
+            "area5 area5"
+            "area6 area6"
+            "area6 area6"
+            "area7 area7"
+            "area7 area7"
+            "area8 area8"
+            "area8 area8"
+            "area9 area9"
+            "area9 area9"
+            "area10 area10"
+            "area10 area10"
+            "area11 area11"
+            "area11 area11"
+            "area12 area12"
+            "area12 area12"
+            "area13 area13"
+            "area13 area13"
+            "area14 area14"
+            "area14 area14"
+            "area15 area15"
+            "area15 area15"
+            "area16 area16"
+            "area16 area16"
+            
+        ;
+    }
+    
+    #area1 {
+        background-image: url(../imagenescabanas/atardecer2.jpg);
+        border: 4px solid black;
+        background-size: 350px 205px;
+        background-repeat: no-repeat;
+    
+        grid-area: area1;
+    }
+    
+    #area2 {
+        background-image: url(../imagenescabanas/livingeco.jpg);
+        border: 4px solid black;
+        background-size: 400px 315px;
+        background-repeat: no-repeat;
+        grid-area: area2;
+    }
+    
+    #area3 {
+        background-image: url(../imagenescabanas/cabaña13.jpg);
+        border: 4px solid black;
+        background-size: 350px 205px;
+        background-repeat: no-repeat;
+        grid-area: area3;
+    }
+    
+    #area4 {
+        background-image: url(../imagenescabanas/cabaña11.jpg);
+        border: 4px solid black;
+        background-size: 350px 205px;
+        background-repeat: no-repeat;
+        grid-area: area4;
+    }
+    
+    #area5 {
+        background-image: url(../imagenescabanas/cabaña12.webp);
+        border: 4px solid black;
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        grid-area: area5;
+    }
+    
+    #area6 {
+        background-image: url(../imagenescabanas/cabaña10.jpg);
+        border: 4px solid black;
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        grid-area: area6;
+    }
+    
+    #area7 {
+        background-image: url(../imagenescabanas/cabaña14.jpg);
+        border: 4px solid black;
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        grid-area: area7;
+    }
+    
+    #area8 {
+        background-image: url(../imagenescabanas/cabaña34.jpg);
+        border: 4px solid black;
+        background-size: 350px 215px;
+        background-repeat: no-repeat;
+        grid-area: area8;
+    }
+    
+    #area9 {
+        background-image: url(../imagenescabanas/cabaña33.jpg);
+        border: 4px solid black;
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        grid-area: area9;
+    }
+    
+    #area10 {
+        background-image: url(../imagenescabanas/cabaña37.jpg);
+        border: 4px solid black;
+        background-size: 355px 205px;
+        background-repeat: no-repeat;
+        grid-area: area10;
+    }
+    
+    #area11 {
+        background-image: url(../imagenescabanas/cabaña15.webp);
+        border: 4px solid black;
+        background-size: 355px 205px;
+        background-repeat: no-repeat;
+        grid-area: area11;
+    }
+    
+    #area12 {
+        background-image: url(../imagenescabanas/cabaña36.jpg);
+        border: 4px solid black;
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        grid-area: area12;
+    }
+    
+    #area13 {
+        background-image: url(../imagenescabanas/cabaña35.jpg);
+        border: 4px solid black;
+        background-size: 355px 215px;
+        background-repeat: no-repeat;
+        grid-area: area13;
+    }
+    
+    #area14 {
+        background-image: url(../imagenescabanas/fondo1.jpg);
+        border: 4px solid black;
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        grid-area: area14;
+    }
+    
+    #area15 {
+        background-image: url(../imagenescabanas/atardecer3.jpg);
+        background-size: 350px 200px;
+        background-repeat: no-repeat;
+        border: 4px solid black;
+        grid-area: area15;
+    }
+    
+    #area16 {
+        background-image: url(../imagenescabanas/dormieco.jpg);
+        border: 4px solid black;
+        background-size: 355px 200px;
+        background-repeat: no-repeat;
+        grid-area: area16;
+    }
+}
